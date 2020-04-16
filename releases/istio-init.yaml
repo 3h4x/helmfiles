@@ -7,7 +7,7 @@ releases:
     namespace: "istio-system"
     labels:
       chart: "test"
-      repo: "cloudposse"
+      repo: "cloudposse2"
       component: "test"
       namespace: "istio-system"
       vendor: "cloudposse"
