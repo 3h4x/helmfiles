@@ -2,10 +2,6 @@ repositories:
   - name: init.istio.io
     url: https://storage.googleapis.com/istio-release/releases/{{ coalesce (env "ISTIO_INIT_IMAGE_TAG") (env "ISTIO_IMAGE_TAG") "1.17a.4" }}/charts
     # Cloud Posse incubator repo of helm charts
-  - name: "cloudposse-incubator"
-    url: "https://charts.cloudposse.com/incubator/"
-
-
 releases:
   - name: "test"
     namespace: "istio-system"
@@ -16,7 +12,7 @@ releases:
       namespace: "istio-system"
       vendor: "cloudposse"
       default: "false"
-    chart: "cloudposse-incubator/tester1zxc"
+    chart: "cloudposse-incubator/istio"
 
   #######################################################################################
   ## istio-init                                                                        ##
