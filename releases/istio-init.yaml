@@ -12,7 +12,7 @@ releases:
       namespace: "istio-system"
       vendor: "cloudposse"
       default: "false"
-    chart: "cloudposse-incubator/istio"
+    chart: "cloudposse-incubator/istio2222"
 
   #######################################################################################
   ## istio-init                                                                        ##
